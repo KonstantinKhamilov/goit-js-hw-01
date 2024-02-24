@@ -7,15 +7,19 @@ function getShippingMessage (country, price, deliveryFee) {
 }
 
 let delivery = getShippingMessage ("Australia", 120, 50);
+
 console.log ("Shipping to " + delivery.country + " will cost " + delivery.totalPriceDelivery + " credits");
+/*console.log(getShippingMessage("Australia", 120, 50));*/
 
 delivery = getShippingMessage ("Germany", 80, 20);
+
 console.log ("Shipping to " + delivery.country + " will cost " + delivery.totalPriceDelivery + " credits");
+/*console.log(getShippingMessage("Germany", 80, 20));*/
 
 delivery = getShippingMessage ("Sweden", 100, 20);
+
 console.log ("Shipping to " + delivery.country + " will cost " + delivery.totalPriceDelivery + " credits");
-
-
+/*console.log(getShippingMessage("Sweden", 100, 20));*/
 
 
 /*
